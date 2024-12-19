@@ -10,6 +10,7 @@ type XKCDJSON struct {
 	Transcript string `json:"transcript"`
 	Alt        string `json:"alt"`
 	Img        string `json:"img"`
-	TItle      string `json:"title"`
+	Title      string `json:"title"`
 	Day        string `json:"day"`
+	Url        string `json:"url"`
 }
